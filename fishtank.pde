@@ -21,7 +21,7 @@ var Fish = function(x1,y1,r,g,b,w,h,speed){
     };
     
     this.moveFish = function(){
-        if(x1>600){
+        if(x1>650){
             x1=-100;
             y1=random(0,400);
         }
