@@ -1,5 +1,7 @@
+void setup() {
+    size(500,500);
+};
 noStroke();
-size(500,500);
 var Fish = function(x1,y1,r,g,b,w,h,speed){
     this.x1=x1;
     this.y1=y1;
