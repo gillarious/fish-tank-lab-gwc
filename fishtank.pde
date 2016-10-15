@@ -1,5 +1,6 @@
 void setup() {
     size(500,500);
+    smooth();
 };
 noStroke();
 var Fish = function(x1,y1,r,g,b,w,h,speed){
